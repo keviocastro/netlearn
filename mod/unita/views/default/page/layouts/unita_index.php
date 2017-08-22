@@ -21,18 +21,18 @@ if (isset($vars['class'])) {
 
 	<div class="elgg-main elgg-body">
 		<?php
-		echo elgg_view_module('featured',  elgg_echo("unita:latest:members"), $vars['members'], $mod_params);
+		echo elgg_view_module('featured',  elgg_echo("unita:latest:members"), $vars['members']);
 		if (elgg_is_active_plugin('groups')) {
-			echo elgg_view_module('featured',  elgg_echo("unita:latest:groups"), $vars['groups'], $mod_params);
+			echo elgg_view_module('featured',  elgg_echo("unita:latest:groups"), $vars['groups']);
 		}
 		if (elgg_is_active_plugin('blog')) {
-			echo elgg_view_module('featured',  elgg_echo("unita:blogs"), $vars['blogs'], $mod_params);
+			echo elgg_view_module('featured',  elgg_echo("unita:blogs"), $vars['blogs']);
 		}
 		if (elgg_is_active_plugin('bookmarks')) {
-			echo elgg_view_module('featured',  elgg_echo("unita:bookmarks"), $vars['bookmarks'], $mod_params);
+			echo elgg_view_module('featured',  elgg_echo("unita:bookmarks"), $vars['bookmarks']);
 		}
 		if (elgg_is_active_plugin('file')) {
-			echo elgg_view_module('featured',  elgg_echo("unita:files"), $vars['files'], $mod_params);
+			echo elgg_view_module('featured',  elgg_echo("unita:files"), $vars['files']);
 		}
 		?>
 	</div>
