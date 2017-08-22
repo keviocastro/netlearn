@@ -26,7 +26,7 @@ function unita_init() {
 	
 	$action_path = dirname(__FILE__) . '/actions';
 	
-	elgg_register_action("unita/settings", "$action_path/settings.php", 'admin');
+	// elgg_register_action("unita/admin/settings", "$action_path/settings.php", 'admin');
 	
 	elgg_register_admin_menu_item('configure', 'unita', 'settings');		
 	elgg_extend_view('js/elgg', 'js/unita/tabs');
@@ -62,10 +62,10 @@ function unita_init() {
 	if ($plugin->unita_index == 'yes') {
 		elgg_register_plugin_hook_handler('index', 'system', 'unita_index_handler', 1);
 	}
-	if (elgg_is_logged_in()	&& $plugin->show_icon != 'no'){
+	if (elgg_is_logged_in()	&& $plugin->show_icon == 'yes'){
 		elgg_extend_view('page/elements/sidebar', 'page/elements/rivericon', '2');
 	}
-	if ($plugin->show_reg_text != 'no'){
+	if ($plugin->show_reg_text == 'yes'){
 		elgg_extend_view('help/register', 'page/elements/info_register');
 	}
 	
@@ -73,24 +73,24 @@ function unita_init() {
 		if ($plugin->show_thewire == 'yes'){
 			elgg_extend_view('page/layouts/content/header', 'page/elements/riverwire', 1);
 		}
-		if ($plugin->show_menu != 'no'){	
+		if ($plugin->show_menu == 'yes'){	
 			elgg_extend_view('page/elements/sidebar', 'page/elements/ownermenu', '502');
 		}
-		if ($plugin->show_friends != 'no'){
+		if ($plugin->show_friends == 'yes'){
 			elgg_extend_view('page/elements/sidebar', 'page/elements/friends', '503');
 		}
-		if ($plugin->show_latest_members != 'no'){
+		if ($plugin->show_latest_members == 'yes'){
 			elgg_extend_view('page/elements/sidebar', 'page/elements/latest_members', '504');
 		}		
-		if ($plugin->show_latest_groups != 'no'){
+		if ($plugin->show_latest_groups == 'yes'){
 			elgg_extend_view('page/elements/sidebar', 'page/elements/latest_groups', '505');
 		}
 	}
 	if ((elgg_get_context() == 'activity') || (elgg_get_context() == 'thewire')){
-		if ($plugin->show_tagcloud != 'no'){
+		if ($plugin->show_tagcloud == 'yes'){
 			elgg_extend_view('page/elements/sidebar', 'page/elements/tagcloud_block', '507');
 		}
-		if ($plugin->show_custom != 'no'){
+		if ($plugin->show_custom == 'yes'){
 			elgg_extend_view('page/elements/sidebar', 'page/elements/custom_module', 506);
 		}
 	}
