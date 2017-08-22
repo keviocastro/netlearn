@@ -26,7 +26,7 @@ function unita_init() {
 	
 	$action_path = dirname(__FILE__) . '/actions';
 	
-	// elgg_register_action("unita/admin/settings", "$action_path/settings.php", 'admin');
+	elgg_register_action("unita/admin/settings", "$action_path/settings.php", 'admin');
 	
 	elgg_register_admin_menu_item('configure', 'unita', 'settings');		
 	elgg_extend_view('js/elgg', 'js/unita/tabs');
