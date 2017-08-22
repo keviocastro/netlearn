@@ -1,5 +1,3 @@
-!/mod/unita
-
 .*
 !.htaccess
 !.travis.yml
