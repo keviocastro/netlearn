@@ -11,7 +11,7 @@
 
 ```docker exec resap_web_1 /elgg-docker/elgg-install.sh```
 
-Pronto, acesse em http://localhost:8080, com usuário admin e seha secret
+Pronto, acesse em http://localhost:8080, com usuário `admin` e senha `secret`
 
 ### Para resetar com configurações iniciais:
 
