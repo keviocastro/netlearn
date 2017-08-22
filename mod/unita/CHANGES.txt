@@ -1,0 +1,15 @@
+= Version history =
+
+2013.02.06:
+
+- Updated to Elgg 1.8.13
+- Added: Text module option
+
+2013.01.16:
+
+- Updated to Elgg 1.8.12
+- Improved: Options panel, ajaxed
+
+2013.01.01:
+
+- Initial release for Elgg 1.8.11
