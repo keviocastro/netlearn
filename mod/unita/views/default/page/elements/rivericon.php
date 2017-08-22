@@ -38,18 +38,4 @@ echo <<<HTML
 	</ul>
 </div>
 
-<div class="logo-sidebar-block">
-	<ul>
-		<li>
-			<img class="logo-sidebar" src="$path_graphics/logo1_sidebar.jpeg">
-		</li>
-		<li>
-			<img class="logo-sidebar" src="$path_graphics/logo2_sidebar.jpeg">
-		</li>
-		<li>
-			<img class="logo-sidebar" src="$path_graphics/logo3_sidebar.jpeg">
-		</li>
-	</ul>
-</div>
-
 HTML;

@@ -1,5 +1,6 @@
 <?php
 $language = array (
+  'unita:label:show_sidebar_logos' => 'Exibir logos da lateral esquerda',
   'unita:copyright' => 'Copyright ©',
   'Elggzone' => '&nbsp;Lógos Educação',
   'unita:friends:none' => 'Você ainda não adicionou nenhum amigo',

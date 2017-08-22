@@ -151,7 +151,15 @@ echo "<div id=\"elggzone-tabs\">";
 		echo "<div class=\"label\">" . elgg_echo('unita:header:sidebar') . "</div>";
 		echo "<div>" . elgg_echo('unita:info:modules') . "</div>";
 		
-		$options = array('show_icon', 'show_menu', 'show_latest_members', 'show_latest_groups', 'show_custom', 'show_tagcloud', 'show_friends');
+		$options = array('show_icon', 
+			'show_menu', 
+			'show_latest_members', 
+			'show_latest_groups', 
+			'show_custom', 
+			'show_tagcloud', 
+			'show_friends',
+			'show_sidebar_logos');
+			
 		foreach ($options as $dropdown) {
 			echo '<div class="item">';
 			echo elgg_view('input/dropdown', array(

@@ -65,6 +65,9 @@ function unita_init() {
 	if (elgg_is_logged_in()	&& $plugin->show_icon == 'yes'){
 		elgg_extend_view('page/elements/sidebar', 'page/elements/rivericon', '2');
 	}
+	if (elgg_is_logged_in()	&& $plugin->show_sidebar_logos == 'yes'){
+		elgg_extend_view('page/elements/sidebar', 'page/elements/sidebar_logos', '2');
+	}
 	if ($plugin->show_reg_text == 'yes'){
 		elgg_extend_view('help/register', 'page/elements/info_register');
 	}

@@ -2,6 +2,8 @@
 
 $english = array(
 	
+	'unita:label:show_sidebar_logos' => 'Show sidebar logos',
+
 	// Misc
 	'unita:admin'      		=> 'Theme Administration',
 	'unita:blogs' 			=> "Latest Blog Posts",
