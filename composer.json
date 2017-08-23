@@ -5,7 +5,13 @@
   "prefer-stable": true,
   "minimum-stability": "dev",
   "require": {
-    "elgg/elgg": "2.*"
+    "elgg/elgg": "2.*",
+    "iionly/hypewall_izap_videos_tidypics": "^2.3",
+    "hypejunction/hypewall": "^5.2",
+    "iionly/izap_videos": "^2.3",
+    "coldtrick/thewire_tools": "^6.1",
+    "pleio/group_tools": "dev-master",
+    "hypejunction/elgg-cli": "^1.2"
   },
   "require-dev": {
     "srokap/code_review": "^1.0.5",

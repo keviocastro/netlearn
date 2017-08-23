@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "697ef196d39eec58f109ed9e53bcc5ca",
+    "content-hash": "f4dd1e68df12e4f53139520a2739eef0",
     "packages": [
         {
             "name": "bower-asset/jquery",
@@ -179,6 +179,42 @@
             "license": [
                 "MIT"
             ]
+        },
+        {
+            "name": "coldtrick/thewire_tools",
+            "version": "v6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ColdTrick/thewire_tools.git",
+                "reference": "66c918683f8366073117b1645d7fb5d9f4fa4211"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ColdTrick/thewire_tools/zipball/66c918683f8366073117b1645d7fb5d9f4fa4211",
+                "reference": "66c918683f8366073117b1645d7fb5d9f4fa4211",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0.8"
+            },
+            "conflict": {
+                "elgg/elgg": "<2.2"
+            },
+            "require-dev": {
+                "coldtrick/releases": "dev-master",
+                "coldtrick/sniffs": "dev-master"
+            },
+            "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Extend the functionality of The Wire",
+            "keywords": [
+                "elgg",
+                "plugin"
+            ],
+            "time": "2017-05-30T07:21:55+00:00"
         },
         {
             "name": "composer/installers",
@@ -981,6 +1017,169 @@
             "time": "2016-10-24T15:52:54+00:00"
         },
         {
+            "name": "hypejunction/elgg-cli",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hypeJunction/elgg-cli.git",
+                "reference": "ed7c330a4f1c4f4275c213fe97f58ccbff83758e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hypeJunction/elgg-cli/zipball/ed7c330a4f1c4f4275c213fe97f58ccbff83758e",
+                "reference": "ed7c330a4f1c4f4275c213fe97f58ccbff83758e",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/console": "^3.1",
+                "symfony/var-dumper": "^3.1"
+            },
+            "bin": [
+                "elgg-cli"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ismayil Khayredinov",
+                    "email": "ismayil.khayredinov@gmail.com"
+                }
+            ],
+            "description": "A set of CLI tools for Elgg",
+            "time": "2017-07-06T12:55:13+00:00"
+        },
+        {
+            "name": "hypejunction/hypewall",
+            "version": "5.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hypeJunction/hypeWall.git",
+                "reference": "e553603738e993fa276c28cf059e25ae31378903"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hypeJunction/hypeWall/zipball/e553603738e993fa276c28cf059e25ae31378903",
+                "reference": "e553603738e993fa276c28cf059e25ae31378903",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "elgg-plugin",
+            "extra": {
+                "installer-name": "hypeWall"
+            },
+            "autoload": {
+                "psr-0": {
+                    "": "classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ismayil Khayredinov",
+                    "email": "info@hypejunction.com"
+                }
+            ],
+            "description": "Rich status updates",
+            "homepage": "http://hypejunction.com",
+            "keywords": [
+                "elgg",
+                "embed",
+                "images",
+                "link",
+                "plugin",
+                "posts",
+                "wall"
+            ],
+            "time": "2017-07-31T13:06:55+00:00"
+        },
+        {
+            "name": "iionly/hypewall_izap_videos_tidypics",
+            "version": "2.3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iionly/hypewall_izap_videos_tidypics.git",
+                "reference": "122beadff58ebc395dbf1fa65c21a653d5835191"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iionly/hypewall_izap_videos_tidypics/zipball/122beadff58ebc395dbf1fa65c21a653d5835191",
+                "reference": "122beadff58ebc395dbf1fa65c21a653d5835191",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": ">=1.0.8"
+            },
+            "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "iionly",
+                    "homepage": "https://github.com/iionly",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Adds menu items to the hypeWall menu for quickly adding videos with the iZAP Videos plugin and photos with the Tidypics plugin.",
+            "homepage": "https://github.com/iionly/hypewall_izap_videos_tidypics",
+            "keywords": [
+                "elgg",
+                "plugin"
+            ],
+            "time": "2017-02-20T20:46:23+00:00"
+        },
+        {
+            "name": "iionly/izap_videos",
+            "version": "2.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iionly/izap_videos.git",
+                "reference": "64c32beeb51bce21d9a47b5259b907a384b02881"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iionly/izap_videos/zipball/64c32beeb51bce21d9a47b5259b907a384b02881",
+                "reference": "64c32beeb51bce21d9a47b5259b907a384b02881",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": ">=1.0.8"
+            },
+            "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "iionly",
+                    "homepage": "https://github.com/iionly",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Video plugin for Elgg. Supports addition of both on-server and off-server videos.",
+            "homepage": "https://github.com/iionly/izap_videos",
+            "keywords": [
+                "elgg",
+                "plugin"
+            ],
+            "time": "2017-02-19T12:13:43+00:00"
+        },
+        {
             "name": "imagine/imagine",
             "version": "v0.6.3",
             "source": {
@@ -1355,6 +1554,39 @@
             "time": "2017-06-08T17:49:34+00:00"
         },
         {
+            "name": "pleio/group_tools",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Pleio/group_tools.git",
+                "reference": "80d67b9b72459c5499a99cdd1afc06543715622e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Pleio/group_tools/zipball/80d67b9b72459c5499a99cdd1afc06543715622e",
+                "reference": "80d67b9b72459c5499a99cdd1afc06543715622e",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0.8"
+            },
+            "require-dev": {
+                "coldtrick/sniffs": "dev-master"
+            },
+            "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Combines different group additions into one plugin",
+            "keywords": [
+                "elgg",
+                "groups",
+                "plugin"
+            ],
+            "time": "2015-12-11T13:20:21+00:00"
+        },
+        {
             "name": "psr/cache",
             "version": "1.0.1",
             "source": {
@@ -1448,6 +1680,53 @@
                 "psr"
             ],
             "time": "2017-02-14T16:28:37+00:00"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2016-10-10T12:19:37+00:00"
         },
         {
             "name": "roave/security-advisories",
@@ -1585,6 +1864,131 @@
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
             "time": "2017-08-17T12:55:16+00:00"
+        },
+        {
+            "name": "symfony/console",
+            "version": "v3.3.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/console.git",
+                "reference": "b0878233cb5c4391347e5495089c7af11b8e6201"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/console/zipball/b0878233cb5c4391347e5495089c7af11b8e6201",
+                "reference": "b0878233cb5c4391347e5495089c7af11b8e6201",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9",
+                "symfony/debug": "~2.8|~3.0",
+                "symfony/polyfill-mbstring": "~1.0"
+            },
+            "conflict": {
+                "symfony/dependency-injection": "<3.3"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/config": "~3.3",
+                "symfony/dependency-injection": "~3.3",
+                "symfony/event-dispatcher": "~2.8|~3.0",
+                "symfony/filesystem": "~2.8|~3.0",
+                "symfony/http-kernel": "~2.8|~3.0",
+                "symfony/process": "~2.8|~3.0"
+            },
+            "suggest": {
+                "psr/log": "For using the console logger",
+                "symfony/event-dispatcher": "",
+                "symfony/filesystem": "",
+                "symfony/process": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Console\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Console Component",
+            "homepage": "https://symfony.com",
+            "time": "2017-07-29T21:27:59+00:00"
+        },
+        {
+            "name": "symfony/debug",
+            "version": "v3.3.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/debug.git",
+                "reference": "7c13ae8ce1e2adbbd574fc39de7be498e1284e13"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/7c13ae8ce1e2adbbd574fc39de7be498e1284e13",
+                "reference": "7c13ae8ce1e2adbbd574fc39de7be498e1284e13",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9",
+                "psr/log": "~1.0"
+            },
+            "conflict": {
+                "symfony/http-kernel": ">=2.3,<2.3.24|~2.4.0|>=2.5,<2.5.9|>=2.6,<2.6.2"
+            },
+            "require-dev": {
+                "symfony/http-kernel": "~2.8|~3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Debug\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Debug Component",
+            "homepage": "https://symfony.com",
+            "time": "2017-07-28T15:27:31+00:00"
         },
         {
             "name": "symfony/http-foundation",
@@ -1813,6 +2217,74 @@
                 "shim"
             ],
             "time": "2017-06-14T15:44:48+00:00"
+        },
+        {
+            "name": "symfony/var-dumper",
+            "version": "v3.3.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/var-dumper.git",
+                "reference": "b2623bccb969ad595c2090f9be498b74670d0663"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/b2623bccb969ad595c2090f9be498b74670d0663",
+                "reference": "b2623bccb969ad595c2090f9be498b74670d0663",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9",
+                "symfony/polyfill-mbstring": "~1.0"
+            },
+            "conflict": {
+                "phpunit/phpunit": "<4.8.35|<5.4.3,>=5.0"
+            },
+            "require-dev": {
+                "ext-iconv": "*",
+                "twig/twig": "~1.34|~2.4"
+            },
+            "suggest": {
+                "ext-iconv": "To convert non-UTF-8 strings to UTF-8 (or symfony/polyfill-iconv in case ext-iconv cannot be used).",
+                "ext-symfony_debug": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "Resources/functions/dump.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Component\\VarDumper\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony mechanism for exploring and dumping PHP variables",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "debug",
+                "dump"
+            ],
+            "time": "2017-07-28T06:06:09+00:00"
         },
         {
             "name": "tedivm/stash",
@@ -3313,7 +3785,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "pleio/group_tools": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
