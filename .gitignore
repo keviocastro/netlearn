@@ -5,8 +5,8 @@
 /elgg-config/settings.php
 /cache
 /settings.php
-/mod
-!/mod/unita
 
 /vendor
+
+docker-compose.yml
 
