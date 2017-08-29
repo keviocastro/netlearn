@@ -5,6 +5,7 @@
 /elgg-config/settings.php
 /cache
 /settings.php
+/tmp
 
 /vendor
 
