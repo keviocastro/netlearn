@@ -1,5 +1,0 @@
-<?php
-
-/**
- * Page header view
- */
